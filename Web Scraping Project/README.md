@@ -1,7 +1,7 @@
 # Summary
 
-This project is a beginner-friendly web scraping tutorial aimed at students who know basic Python but are new to working with HTML and data extraction. The goal is to teach how to scrape and clean data from a saved Wikipedia page listing basketball films.
+This project teaches how to scrape and organize movie data from a Wikipedia page about basketball films. It’s designed for students who know Python basics and want hands-on experience with web scraping.
 
-Using Python and BeautifulSoup, the tutorial walks through how to open and parse an offline HTML file, extract movie data from the correct table, clean out footnotes, and organize details like director, producer, cast, and runtime. The final output is a structured CSV file ready for analysis.
+The script starts with a saved copy of the Wikipedia page and uses BeautifulSoup to extract each movie listed in the table. It pulls out core details, cleans footnote clutter, and then follows each movie's embedded Wikipedia link to gather more information like director, producer, cast, budget, and runtime.
 
-The project uses a local HTML copy to keep the process consistent and avoid scraping Wikipedia live. It's a practical introduction to working with real-world web data in a repeatable and respectful way.
+Both local HTML parsing and live web scraping are used to build a complete dataset. The final result is saved as a CSV that’s ready for analysis or visualization. This project shows how real-world data often needs extra steps to become usable and highlights how to combine local and online sources responsibly.
