@@ -1,3 +1,4 @@
+# Summary
 This group project was completed over a two-week period by a team of four and received an A grade. I contributed significantly to the project's development, particularly in Parts 1–5. My main responsibilities included structuring the writing, selecting and implementing the linear regression model, performing data preprocessing and cleaning, creating visualizations, and curating the citations and introduction.
 
 The dataset used in this project was sourced from the public GitHub repository of Dom Samangy, Basketball Analytics Coordinator for the New Orleans Pelicans. It contains a comprehensive set of data points from the full 2024 NBA season, which we selected because the season had concluded and the data was complete. Our objective was to explore whether the outcome variable shot_made could be accurately predicted. Achieving this would support the league in making more informed decisions and help players improve scoring efficiency.
